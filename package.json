@@ -1,0 +1,43 @@
+{
+  "name": "manual-chrome-extension",
+  "version": "1.0.1",
+  "description": "Chrome 插件是基于 Web 技术的功能扩展程序，用于扩展浏览器能力、提升效率与定制化体验。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gitbook serve ./ ./book"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuriv/manual-chrome-extension.git"
+  },
+  "keywords": [
+    "chrome-extension",
+    "extension",
+    "chrome-browser",
+    "extension-chrome",
+    "extension-development"
+  ],
+  "author": "Kuriv Vesti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuriv/manual-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/kuriv/manual-chrome-extension#readme",
+  "dependencies": {
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-chapter-fold": "0.0.4",
+    "gitbook-plugin-favicon": "0.0.2",
+    "gitbook-plugin-hide-element": "0.0.4",
+    "gitbook-plugin-lightbox": "^1.2.0",
+    "gitbook-plugin-prism": "^2.4.0",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-splitter": "0.0.8",
+    "lodash": "^4.17.19",
+    "minimist": "^0.2.1",
+    "prismjs": "^1.21.0"
+  }
+}
