@@ -33,7 +33,7 @@ Manifest V3 是 Chrome 扩展程序的配置标准，它本质是一个 `manifes
     "background": {
         "service_worker": "service-worker/service-worker.js"
     },
-    "permissions": ["storage", "tabs"],
+    "permissions": [],
     "host_permissions": ["<all_urls>"]
 }
 ```

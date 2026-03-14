@@ -1,6 +1,6 @@
 # content
 
-content 运行在网页上下文中，它能直接操作当前页面的 DOM、监听页面事件。在插件目录中新建 `content.css` 文件内容如下。
+content 能直接操作当前页面的 DOM、监听页面事件。在插件目录中新建 `content.css` 文件内容如下。
 
 ```css
 #watermark {

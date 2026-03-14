@@ -1,6 +1,6 @@
 # popup
 
-popup 是 Chrome 扩展程序核心交互界面之一，它是用户点击浏览器右上角插件图标时弹出的小窗口。在插件目录中新建 `popup.html` 文件内容如下。
+popup 是用户点击浏览器右上角插件图标时弹出的小窗口。在插件目录中新建 `popup.html` 文件内容如下。
 
 ```html
 <!DOCTYPE html>
