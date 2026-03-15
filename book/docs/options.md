@@ -1,6 +1,6 @@
 # options
 
- options 是用于让用户配置插件参数的独立页面。更新 `popup.html` 文件内容如下。
+ `options` 是用于让用户配置插件参数的独立页面。更新 `popup.html` 文件内容如下。
 
 ```html
 <!DOCTYPE html>

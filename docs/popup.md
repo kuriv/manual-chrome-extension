@@ -1,6 +1,6 @@
 # popup
 
-popup 是用户点击浏览器右上角插件图标时弹出的小窗口。在插件目录中新建 `popup.html` 文件内容如下。
+`popup` 是点击浏览器右上角插件图标时弹出的窗口。在插件目录中新建 `popup.html` 文件内容如下。
 
 ```html
 <!DOCTYPE html>
@@ -61,5 +61,3 @@ button:active {
 const btn_popup = document.querySelector('#btn-popup');
 btn_popup.addEventListener('click', () => alert('Hello World!'));
 ```
-
-由于 popup 生命周期较短，失去焦点即关闭，因此长时间任务需借助后台服务。

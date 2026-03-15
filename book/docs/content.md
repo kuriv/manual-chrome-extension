@@ -1,6 +1,6 @@
 # content
 
-content 能直接操作当前页面的 DOM、监听页面事件。在插件目录中新建 `content.css` 文件内容如下。
+`content` 能操作当前页面的 DOM、监听页面事件。在插件目录中新建 `content.css` 文件内容如下。
 
 ```css
 #watermark {
@@ -26,4 +26,4 @@ watermark.textContent = 'Hello World!';
 document.body.appendChild(watermark);
 ```
 
-content 注入后，所有页面都会在右下角显示自定义水印。
+`content` 注入后，所有页面都会在右下角显示自定义水印。
